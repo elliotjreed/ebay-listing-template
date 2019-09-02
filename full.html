@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en-GB" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>PRODUCT</title>
+  <!--[if IE ]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    article, aside, details, figcaption, figure, footer, header, nav, section {
+      display: block
+    }
+
+    html {
+      font-size: 100%;
+      overflow-y: scroll;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%
+    }
+
+    body {
+      margin: 0;
+      line-height: 1.231
+    }
+
+    body, button, input, select, textarea {
+      font-family: sans-serif;
+      color: #222
+    }
+
+    a {
+      color: #136C91;
+      text-decoration: none
+    }
+
+    a:hover, a:visited {
+      color: #136C91
+    }
+
+    a:focus {
+      outline: thin dotted
+    }
+
+    a:active, a:hover {
+      outline: 0
+    }
+
+    abbr {
+      border-bottom: 1px dotted
+    }
+
+    strong {
+      font-weight: 700
+    }
+
+    blockquote {
+      margin: 1em 40px;
+      font-style: italic
+    }
+
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0
+    }
+
+    code, kbd, pre, samp {
+      font-family: monospace, monospace;
+      _font-family: 'courier new', monospace;
+      font-size: 1em
+    }
+
+    pre {
+      white-space: pre;
+      word-wrap: break-word
+    }
+
+    q {
+      quotes: none
+    }
+
+    q:after, q:before {
+      content: "";
+    }
+
+    small {
+      font-size: 85%
+    }
+
+    sub, sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline
+    }
+
+    sup {
+      top: -.5em
+    }
+
+    sub {
+      bottom: -.25em
+    }
+
+    ol, ul {
+      margin: 1em 0;
+      padding: 0 0 0 40px
+    }
+
+    nav ol, nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0
+    }
+
+    img {
+      padding: 10px 0;
+      border: 0;
+      -ms-interpolation-mode: bicubic;
+      vertical-align: middle;
+      max-width: 100%
+    }
+
+    figure {
+      margin: 0
+    }
+
+    figcaption {
+      text-align: center
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0
+    }
+
+    td {
+      vertical-align: top
+    }
+
+    small {
+      color: #136C91;
+      text-decoration: none
+    }
+
+    body {
+      font: 16px/24px Helvetica, Helvetica Neue, Arial, sans-serif
+    }
+
+    .wrapper {
+      width: 90%;
+      margin: 0 5%
+    }
+
+    #header-container {
+      border-bottom: 20px solid #358FD4
+    }
+
+    #footer-container, #main aside {
+      border-top: 20px solid #358FD4
+    }
+
+    #footer-container, #header-container, #main aside {
+      background: #7CB1FF
+    }
+
+    #title {
+      color: #fff
+    }
+
+    ::-moz-selection {
+      background: #7CB1FF;
+      color: #fff;
+      text-shadow: none
+    }
+
+    ::selection {
+      background: #7CB1FF;
+      color: #fff;
+      text-shadow: none
+    }
+
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 15px 0;
+      background: #358FD4;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 700
+    }
+
+    nav a:hover, nav a:visited {
+      color: #fff
+    }
+
+    nav a:hover {
+      text-decoration: underline
+    }
+
+    #main {
+      padding: 30px 0
+    }
+
+    #main article h1 {
+      font-size: 2em
+    }
+
+    #main aside {
+      color: #fff;
+      padding: 0 5% 10px
+    }
+
+    #footer-container footer {
+      color: #fff;
+      padding: 20px 0
+    }
+
+    .clearfix:after, .clearfix:before {
+      content: "";
+      display: table
+    }
+
+    .clearfix:after {
+      clear: both
+    }
+
+    .clearfix {
+      zoom: 1
+    }
+
+    @media only screen and (min-width: 480px) {
+      nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+      }
+
+      nav li:first-child a {
+        margin-left: 0
+      }
+
+      nav li:last-child a {
+        margin-right: 0
+      }
+
+      nav ul li {
+        display: inline
+      }
+
+      .oldie nav a {
+        margin: 0 .7%
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      #header-container, #main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+        box-shadow: 0 5px 10px #aaa
+      }
+
+      #title {
+        float: left
+      }
+
+      nav {
+        float: right;
+        width: 38%
+      }
+
+      #main article {
+        float: left;
+        width: 57%
+      }
+
+      #main aside {
+        float: right;
+        width: 28%
+      }
+    }
+
+    @media only screen and (min-width: 1140px) {
+      .wrapper {
+        width: 1026px;
+        margin: 0 auto
+      }
+    }
+
+    @media print {
+      * {
+        background: transparent !important;
+        color: #000 !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important
+      }
+
+      a, a:visited {
+        text-decoration: underline
+      }
+
+      a[href]:after {
+        content: " (" attr(href) ")"
+      }
+
+      abbr[title]:after {
+        content: " (" attr(title) ")"
+      }
+
+      blockquote, pre {
+        border: 1px solid #999;
+        page-break-inside: avoid
+      }
+
+      thead {
+        display: table-header-group
+      }
+
+      img, tr {
+        page-break-inside: avoid
+      }
+
+      img {
+        max-width: 100% !important
+      }
+
+      @page {
+        margin: .5cm
+      }
+
+      h2, h3, p {
+        orphans: 3;
+        widows: 3
+      }
+
+      h2, h3 {
+        page-break-after: avoid
+      }
+    }</style>
+</head>
+<body>
+
+<div id="header-container">
+  <header class="wrapper clearfix" role="banner">
+    <h1 id="title">YOUR STORE NAME</h1>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#Description">Description</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Terms">T&amp;Cs</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div id="main-container" itemscope itemtype="http://schema.org/Product">
+  <main id="main" class="wrapper clearfix" role="main">
+    <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+      <meta itemprop="availability" content="https://schema.org/InStock">
+      <meta itemprop="itemCondition" content="https://schema.org/UsedCondition">
+      <div itemprop="seller" itemtype="http://schema.org/Person" itemscope>
+        <meta itemprop="name" content="Elliot J. Reed">
+      </div>
+    </div>
+    <article>
+      <header>
+        <h2 itemprop="name">PRODUCT</h2>
+      </header>
+      <section id="Description" itemprop="description">
+        <h3>Item Description</h3>
+        <p>
+          DESCRIPTION
+        </p>
+        <ul>
+          <li>BULLET POINT ONE</li>
+          <li>BULLET POINT TWO</li>
+        </ul>
+      </section>
+      <section id="Contact">
+        <h3>Contact Me</h3>
+        <p>
+          The easiest way to contact me is <a href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?ReturnUserEmail&amp;requested=YOUR-EBAY-USER-ID" target="_blank">using eBay's messaging (&quot;Contact Seller&quot;) system.</a> I normally have my phone with me, so should be able to get back to you pretty quickly.
+        </p>
+      </section>
+      <section id="Terms">
+        <h3>Delivery, Returns &amp; Refunds</h3>
+        <h4>Delivery</h4>
+        <p>
+          I send things out using either Royal Mail or an alternative courier for larger items. Royal Mail's &quot;48&quot; service normally gets things delivered within 2 days, but has been known to be a bit slower than that sometimes.
+        </p>
+        <p>
+          Royal Mail's &quot;24&quot; service is normally pretty good and gets things delivered the next day, but can sometimes be the day after. Other couriers are usually 1 to 2 days.
+        </p>
+        <p>
+          If your order does not arrive within 5 days for the Royal Mail &quot;48&quot; service, and 3 days for the Royal Mail &quot;24&quot; service, please let me know.
+          With other courier please let me know if it's not with you within two days and I'll chase them up on your behalf.
+        </p>
+        <h4>Returns</h4>
+        <p>
+          For all orders it's fine of you want to return anything within 21 days, as long as it's in the original condition.
+        </p>
+        <h4>Refunds</h4>
+        <p>Refunds will be refunded into the same method of payment used for the original purchase (ie. PayPal).</p>
+      </section>
+    </article>
+    <aside role="complementary">
+      <figure>
+        <img src="https://via.placeholder.com/400x250?text=Example+product+image" alt="Alternative text for people viewing the listing via a screen reader or other accessibility software.">
+        <figcaption>An example placeholder image</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/400x250?text=Example+product+image" alt="Alternative text for people viewing the listing via a screen reader or other accessibility software.">
+        <figcaption>An example placeholder image</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/400x250?text=Example+product+image" alt="Alternative text for people viewing the listing via a screen reader or other accessibility software.">
+        <figcaption>An example placeholder image</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/400x250?text=Example+product+image" alt="Alternative text for people viewing the listing via a screen reader or other accessibility software.">
+        <figcaption>An example placeholder image</figcaption>
+      </figure>
+    </aside>
+  </main>
+</div>
+<div id="footer-container">
+  <footer class="wrapper" role="contentinfo">
+    <small>&copy; <a href="https://www.elliotjreed.com" target="_blank">Elliot J. Reed</a></small>
+  </footer>
+</div>
+</body>
+</html>
